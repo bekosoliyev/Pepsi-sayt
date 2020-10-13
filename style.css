@@ -1,0 +1,167 @@
+body{
+	background-color:#029beb;
+	
+	position: relative;
+	font-family:sans-serif;
+	color: white;
+}
+.main-hold{
+	max-width: 1400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-top: 20px;
+}
+
+.tab{
+	list-style: none;
+	float: right;
+	display: flex;
+	padding: 0;
+	width: 700px;
+	height: 40px;
+}
+.tab li{
+
+line-height: 45px;
+width: 120px;
+height: 50px;
+text-align: center;
+box-shadow: 0 0 35px #06537b;
+border-radius: 25px;
+margin: 0 10px;
+transition: 1s;
+}
+.tab li:hover{
+	background-color: white;
+	color: #029beb;
+	border-radius: 25px;
+	transition: 1s;
+	transform: translateY(-15px);
+	box-shadow: 0 20px 10px #06537b;
+}
+.tab a{
+	text-decoration: none;
+	color: white;
+}
+.clr{
+	clear: both;
+}
+h2{
+	font-size: 40px;
+	font-style: bold;
+}
+h1{
+	font-size: 60px;
+	margin:25px 0;
+}
+.con1{
+	float: left;
+	width: 500px;
+	position: absolute;
+}
+.but1{
+	float: left;
+	width: 200px;
+	height: 40px;
+	background-color: white;
+	text-align: center;
+	border-radius: 20px;
+	margin-top: 20px;
+	box-shadow: 0 0 35px #06537b;
+	transition: 1s;
+}
+.but1 h3{
+	margin: 0;
+	line-height: 40px;
+	color: #029beb;
+	font-size: 15px;
+}
+.but1 a{
+	text-decoration: none;
+}
+.but1:hover{
+	border-radius: 25px;
+	transition: 1s;
+	transform: translateY(-15px);
+	box-shadow: 0 20px 10px #06537b;
+	
+}
+.img2{
+	position: relative;
+	left: 70%;
+	float: left;
+}
+.footer{
+	text-align: center;
+	
+	left: 35%;
+	top: 530%;
+}
+.fot2 img{
+	margin: 0 15px;
+}
+.tlipon{
+	background-color: #029beb;
+	border: 0;
+	box-shadow: 0 0 10px #06537b;
+	cursor: pointer;
+	border-radius: 15px;
+	text-align: center;
+	transition: 1s;
+}
+.tlipon:hover:nth-child(1){
+	background-color: white;
+	border-radius: 15px;
+	transition: 1s;
+	transform:  rotateY(180deg)  ;
+	
+}
+.tlipon:hover:nth-child(2){
+	background-color: #353132;
+	border-radius: 15px;
+	transition: 1s;
+	transform:  rotateY(180deg);
+	
+}
+.tlipon:hover:nth-child(3){
+	background-color: #ff4561;
+	border-radius: 15px;
+	transition: 1s;
+	transform:  rotateY(180deg);
+	
+}
+.fot2 button{
+	margin: 0 10px 10px;
+}
+.tab2 ul li img{
+	width: 50px;
+	height: 50px;
+}
+.tab2 ul li{
+ list-style: none;
+ margin: 15px 0;
+ width: 50px;
+ height: 50px;
+ transition: 1s;
+}
+.tab2 ul{
+	
+	padding: 0;
+	float: right;
+	top: 500%;
+	
+}
+
+.tab2 ul li:hover{
+	background-color: white;
+	color: white;
+	border-radius: 15px;
+	transition: 1s;
+	transform: translateY(-15px) rotate(15deg);
+	box-shadow: 0 20px 10px #06537b;
+}
+.clr{
+	clear: both;
+}
